@@ -1,0 +1,89 @@
+# POST http://127.0.0.1:8000/api/auth/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika"
+# }
+
+# POST http://127.0.0.1:8000/api/auth/me HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9yZWZyZXNoIiwiaWF0IjoxNjAwMjYwOTQxLCJleHAiOjE2MDAyNjU0MDcsIm5iZiI6MTYwMDI2MTgwNywianRpIjoiRGtFd0ZtanlOclBuaHlMeiIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.Jy6MhLknNLjZ7uSro-fGfqCf8nGsiOvEToZJQk_hjJU"
+# }
+
+
+# POST http://127.0.0.1:8000/api/auth/refresh HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9yZWZyZXNoIiwiaWF0IjoxNjAwMjYwOTQxLCJleHAiOjE2MDAyNjU0MDcsIm5iZiI6MTYwMDI2MTgwNywianRpIjoiRGtFd0ZtanlOclBuaHlMeiIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.Jy6MhLknNLjZ7uSro-fGfqCf8nGsiOvEToZJQk_hjJU"
+# }
+
+# POST http://127.0.0.1:8000/api/auth/logout HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9yZWZyZXNoIiwiaWF0IjoxNjAwMjYwOTQxLCJleHAiOjE2MDAyNjU0MDcsIm5iZiI6MTYwMDI2MTgwNywianRpIjoiRGtFd0ZtanlOclBuaHlMeiIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.Jy6MhLknNLjZ7uSro-fGfqCf8nGsiOvEToZJQk_hjJU"
+# }
+
+# GET http://127.0.0.1:8000/api/entries HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9yZWZyZXNoIiwiaWF0IjoxNjAwMjYwOTQxLCJleHAiOjE2MDAyNjU0MDcsIm5iZiI6MTYwMDI2MTgwNywianRpIjoiRGtFd0ZtanlOclBuaHlMeiIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.Jy6MhLknNLjZ7uSro-fGfqCf8nGsiOvEToZJQk_hjJU"
+# }
+
+# GET http://127.0.0.1:8000/api/entries HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwMDI2NTM1NywiZXhwIjoxNjAwMjY4OTU3LCJuYmYiOjE2MDAyNjUzNTcsImp0aSI6IjlUb2FFV3RVcHRHamQweXoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.a5dvJA016VgH3cuGSR56Zhe381i40bps2EGdt9w2Qls"
+# }
+
+# POST http://127.0.0.1:8000/api/entries/store HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "user_id":"1",
+#     "meal": "2 egg and 1 bread",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwMDI2OTA4NSwiZXhwIjoxNjAwMjcyNjg1LCJuYmYiOjE2MDAyNjkwODUsImp0aSI6IjlpWFI1eW0yWDBEY2JMZHYiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.cW4fQajwzLe9KjP9yInDHjirAtDj7k5sxTh3BCElook"
+# }
+
+# POST http://127.0.0.1:8000/api/entries/15/update HTTP/1.1
+# content-type: application/json
+
+# {
+#     "meal": "2 egg and 3 bread",
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwMDI2NTM1NywiZXhwIjoxNjAwMjY4OTU3LCJuYmYiOjE2MDAyNjUzNTcsImp0aSI6IjlUb2FFV3RVcHRHamQweXoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.a5dvJA016VgH3cuGSR56Zhe381i40bps2EGdt9w2Qls"
+# }
+
+# POST http://127.0.0.1:8000/api/entries/5/destroy HTTP/1.1
+# content-type: application/json
+
+# {
+#     "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwMDI2NTM1NywiZXhwIjoxNjAwMjY4OTU3LCJuYmYiOjE2MDAyNjUzNTcsImp0aSI6IjlUb2FFV3RVcHRHamQweXoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.a5dvJA016VgH3cuGSR56Zhe381i40bps2EGdt9w2Qls"
+# }
+
+# POST http://127.0.0.1:8000/api/user/settings HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "nikajajanidze@gmail.com",
+#     "password": "nika",
+#     "expected_calories" : "52",
+#     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwMDI2MzQ4OCwiZXhwIjoxNjAwMjY3MDg4LCJuYmYiOjE2MDAyNjM0ODgsImp0aSI6ImQ2VzlCNnlDM3d5eWwwV24iLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.GxOr85usrV-oyz5nVliP4zZLBclegKjInvK03KUAjwY"
+# }
